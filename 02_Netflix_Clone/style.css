@@ -105,7 +105,6 @@
   border-radius: 3px 3px 3px 3px;
   cursor: pointer;
   font-size: 16px;
-  margin-left: 15px;
 
 }
 
@@ -120,6 +119,31 @@
   margin-left: 329px;
   margin-top: -49rem;
   font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+.getstart3{
+  background-color: #e50914;
+  color: #fdfbfb;
+  border: none;
+  padding: 7px 14px;
+    padding-left: 14px;
+  border-radius: 3px 3px 3px 3px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 329px;
+  margin-top: -49rem;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  padding-left: 15px;
+  margin-left: 37rem;
+  margin-top: 0px;
+}
+
+
+#ready{
+  font-size: 13px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  padding-left: 16rem;
+
 }
 .cont2 {
   height: 10px;
@@ -311,6 +335,20 @@
   padding-top: 880px;
 }
 
+.b2{
+  position: absolute;
+  border-color: rgb(255, 255, 255);
+  background-color: ;
+  font-size: 26px;
+  font-weight: 61;
+  color: #b5b5b5;
+  padding-left: 13rem;
+  width: 160px;
+  margin-left: 216px;
+  border-radius: 7px;
+  
+}
+
 .footer{
     padding: 50px 15% 10px;
     border-top: solid #000000;
@@ -418,3 +456,71 @@
   height: 195px;
   width: 511px;
 }
+
+/* accodian */
+#ahead{
+  color: white;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  padding-left: 32rem;
+  font-size: 40px;
+  padding-top: 2rem;
+  height: fit-content;
+  width: 100%;
+}
+
+.accod{
+  margin-top: 10rem;
+  color: white;
+  margin-left: -48rem;
+
+}
+
+.accod li{
+  list-style: none;
+  width: 70%;
+  padding: 8px;
+}
+
+
+.accod li label{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  background: #303030;
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+}
+
+label::after{
+  content: '+';
+  font-size: 34px;
+  position: absolute;
+  right: 20px;
+}
+
+input[type="radio"]{
+  display: none;
+}
+
+.accod .content{
+  background: #303030;
+  text-align: left;
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s,padding 0.5s;
+}
+
+.accod input[type="radio"]:checked + label + .content{
+  max-height: 600px;
+  padding: 30px 20px;
+}
+
+
+
+
+
+
